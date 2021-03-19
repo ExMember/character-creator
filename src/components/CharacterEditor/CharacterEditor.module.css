@@ -45,3 +45,31 @@
 .controlColumn {
   width: 50%;
 }
+
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+
+  .perspectiveBar {
+    display: none;
+  }
+
+  .characterWrapper {
+    position: static;
+    margin: 0 auto;
+    padding-top: 0;
+    min-height: 100px;
+    width: 100%;
+  }
+
+  .controlColumn {
+    position: absolute;
+    bottom: 20%;
+    left: 32px;
+    right: 32px;
+    width: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+}
